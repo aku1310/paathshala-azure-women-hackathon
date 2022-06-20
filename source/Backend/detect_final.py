@@ -13,7 +13,7 @@ constructed_url = endpoint + path
 
 params = {
     'api-version': '3.0',
-    'to': str(input("Enter language code to translate: "))
+    'to': str(input("Enter language to translate to: "))
 }
 
 headers = {
