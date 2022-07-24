@@ -1,10 +1,16 @@
 *{
-  font-family: 'Rozha One', serif;
-  font-size:18px;
-  color:#FFCCD5;
-  background:linear-gradient(to bottom right, #590D22, #800F2F, #A4133C, #C9184A, #FF4D6D, #FF758F, #FF8FA3);
-  box-sizing: border-box;
-  }
+      font-size:18px;
+      background: none;
+      box-sizing: border-box;
+      }
+#Menu2_body{
+    color:#FFCCD5;
+    background:linear-gradient(to bottom right, #590D22, #800F2F, #A4133C, #C9184A, #FF4D6D, #FF758F, #FF8FA3);
+    height: 900px;
+width: 1534px;
+
+padding-top:40px;
+    }
 .sub{
      height:220px;
      width:467px;
@@ -18,7 +24,7 @@
      display:inline-block;
      text-align:center;
      }
-a{
+#sub_link{
 /*  background-color:#31572C;*/
   background: linear-gradient(to right, #31572C, #90A955);
   text-shadow: 0 0 2px black;

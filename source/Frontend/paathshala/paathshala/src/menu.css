@@ -1,28 +1,38 @@
 *{
   font-size:18px;
-  color:#FFCCD5;
-  background:linear-gradient(to bottom right, #590D22, #800F2F, #A4133C, #C9184A, #FF4D6D, #FF758F, #FF8FA3);
+  background: none;
   box-sizing: border-box;
   }
-.sub{
-     height:220px;
-     width:467px;
-     border:3px solid black;
-     border-radius:10px;
-     margin:7.5px 15px 7.5px 15px;
+#Menu_body{
+color:#FFCCD5;
+background:linear-gradient(to bottom right, #590D22, #800F2F, #A4133C, #C9184A, #FF4D6D, #FF758F, #FF8FA3);
+height: 900px;
+width: 1534px;
+
+padding-top:40px;
+}
+#bg{
+      height: 15rem;
+      width: 200vh;
+      margin:0.5rem 1rem 0.5rem 1rem;
+}
+ .sub{
+     border:5rem solid black;
+     border-radius:2rem;
      padding:25px 20px 25px 20px;
      background: linear-gradient(to right, #31572C, #90A955);
-/*     background-color:#31572C;*/
+
      background-position:center center;
      display:inline-block;
      text-align:center;
      }
-a{
+a, Link{
 /*  background-color:#31572C;*/
   background: linear-gradient(to right, #31572C, #90A955);
   text-shadow: 0 0 2px black;
-  font-size: 26px;
+  font-size: 22px;
   font-weight:italic;
+  text-decoration:none;
   }
 #sub2{
       background-image:url(https://images.unsplash.com/photo-1520312622401-cac590a0d473?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=430&q=80);

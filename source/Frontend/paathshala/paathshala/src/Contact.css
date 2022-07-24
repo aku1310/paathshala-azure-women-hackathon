@@ -1,0 +1,74 @@
+#developers-pg{
+    box-sizing: border-box;
+    font-size: 18px;
+    height: 900px;
+    width: 1534px;
+}
+#heading{
+    position: relative;
+    text-align: center;
+    color:rgba(250, 58, 103, 0.63);
+    /* font-family: Georgia, 'Times New Roman', Times, serif; */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3rem;
+    top:5rem;
+    text-shadow: 3px 3px 1px black;
+    left: 1rem;
+}
+.Developers{
+    height: 20rem;
+    width: 15rem;
+    display: inline-block;
+    margin: 2rem;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    background-color: antiquewhite;
+    position: relative;
+    top: 16%;
+    left: 16%;
+    border: 0.4rem solid salmon;
+    border-radius: 2rem;
+    box-shadow: 12px 12px 8px black;
+}
+.Name{
+    font-size: 2rem;
+    font-weight: bold;
+    position: relative;
+    top: 50%;
+}
+.URLid{
+    position: relative;
+    top:52%;
+    display: inline-block;
+    font-size: 1rem;
+    font-style: italic;
+    font-weight: bold;
+    color: salmon;
+    text-decoration: underline;
+}
+.URL{
+    position: relative;
+    top:52%;
+    left: 2%;
+    
+    display: inline-block;
+    font-size: 1rem;
+}
+.Phid{
+    position: relative;
+    top:55%;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: bold;
+    font-style: italic;
+    color: salmon;
+    text-decoration: underline;
+}
+.Phone_No{
+    position: relative;
+    top:55%;
+    left: 2%;
+    display: inline-block;
+    font-size: 1rem;
+}

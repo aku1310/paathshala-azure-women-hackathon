@@ -1,0 +1,78 @@
+* {
+        box-sizing: border-box;
+        
+        background: linear-gradient(to right, #ff8fa3, #ffb3c1, #ffccd5, #fff0f3);
+        font-size: 24px;
+}
+
+.page {
+        margin: 0.5rem 1rem 0.5rem 1rem;
+        display: inline-block;
+}
+
+h1, div,textarea, button, body {
+        background: none;
+        justify-content: center;
+        color: #ffd2de;
+}
+
+h1 {
+        justify-content: center;
+        text-align: center;
+
+}
+
+textarea {
+        position: absolute;
+        top: 120px;
+        left: 180px;
+        height: 28rem;
+        width: 70rem;
+        border: 3px dotted black;
+        font-size: 5em;
+}
+#Scholars_link{
+        position: absolute;
+        top: 1rem;
+        right:2rem;
+        font-size: 0.5rem;
+        background-color:none;
+        text-decoration: none;
+}
+
+#identify {
+        position: absolute;
+        bottom: 80px;
+        right: 100px;
+        font-size: 24px;
+}
+
+.button {
+        position: absolute;
+        background-color: #ecf39e;
+        font-size: 22px;
+        height: 40px;
+        width: 62px;
+        display: block;
+        margin: 2px;
+        padding: 2px;
+}
+
+#translate {
+        width: 104px;
+        bottom: 25px;
+        right: 60px;
+        border-radius: 1px;
+}
+
+#read {
+        bottom: 25px;
+        right: 180px;
+        border-radius: 1px;
+}
+
+.button:hover {
+        background-color: #590d22;
+        color: white;
+        font-weight: bold;
+}

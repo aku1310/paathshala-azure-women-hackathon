@@ -1,0 +1,63 @@
+#PopUp{
+    background-color: azure;
+    height: 50vh;
+    width:60vw;
+    position: relative;
+    top:160px;
+    left: 325px;
+    color: black;
+    font-size: 14px;
+    /* display: inline-block; */
+    box-sizing: border-box;
+}
+#img{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 50vh;
+    width:30vh;
+}
+#break{
+    color: rgba(0, 0, 0, 0.578);
+    font-size: 2.8rem;
+    text-align: left;
+    width: 30vh;
+}
+#break-text{
+    color: #843131;
+}
+#info{
+    position: relative;
+    top:-80%;
+    left: 30%;
+    height: 150vh;
+    width: 70vh;
+    color: black;
+}
+#buttons{
+    background-color: #38393d;
+    height:1.8rem;
+    width: 6.8rem;
+    border-radius: 1rem;
+    color: #c98220;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    top:-1.3rem;
+    font-size: 1.3rem;
+    border: 3px solid #c98220;
+    left:28rem;
+}
+#cont_button{
+    position: relative;
+    top:-0.1rem;
+    background: #38393d;
+    color: #c98220;
+    text-decoration: none;
+    
+}
+/* a::hover{
+    background: #38393d;
+    color: #c98220;
+} */

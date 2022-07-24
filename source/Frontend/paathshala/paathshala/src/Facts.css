@@ -1,0 +1,62 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#facts-page {
+    /* display: grid;
+    grid-template-columns: 30rem 30rem; */
+    column-gap: 10rem;
+    min-height: 100vh;
+    position: relative;
+    top:7rem;
+}
+
+.facts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    text-align: left;
+}
+
+.me h2, .se h2 {
+    font-size: 2.5rem;
+    color: antiquewhite;
+}
+hr.rounded {
+    border-width: 0.1rem;
+    border-top: 28rem solid antiquewhite;
+    position: relative;
+    top:-13.5rem;
+    left:20rem;
+   
+    border-radius: 7px;
+  }
+.se ol, .me ol {
+    font-size: 1.5rem;
+    color: antiquewhite;
+    text-align: left;
+    /* background-color: aliceblue; */
+}
+
+ol {
+    text-align: left;
+    color: antiquewhite;
+    margin-top: 1rem;
+}
+#dropdown-content{
+    font-size: 16px;
+    color: aliceblue;
+}
+#growth, #menst-info, #fem-dev, #vacc{
+    color: aliceblue;
+    font-size: 16px;
+} 
+a{
+    font:14px;
+    height: 1rem;
+    width:2rem;
+    background-color: none;
+}

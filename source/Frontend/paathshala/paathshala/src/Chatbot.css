@@ -1,0 +1,118 @@
+* {
+      
+      padding: 0px;
+      margin: 0px;
+      box-sizing: border-box;
+      
+      font-size: 36px;
+}
+.App{
+      background-color: #590D22;
+      color: #FF4D6D;
+      height: 900px;
+      width: 1534px;;
+}
+#backdrop {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+}
+
+#welcomelogo {
+      color: #FFF0F3;
+      margin-top: 2.4rem;
+      margin-left: 10vw;
+      font-size: 46px;
+      font-family: 'Beau Rivage', cursive;
+      text-align: center;
+      text-shadow: 0 0 2px black;
+
+
+}
+
+#box1 {
+      background-color: #A4133C;
+      height: 28rem;
+      width: 47rem;
+      margin-top: 50px;
+      margin-left: 350px;
+      margin-right: 200px;
+
+
+}
+
+#box2 {
+      background-color: #FFCCD5;
+      height: 350px;
+      width: 690px;
+      background-position: center center;
+      border: 2px solid #590D22;
+      padding: 2%;
+      margin-top: 3.1rem;
+      margin-left: 85px;
+      margin-right: 200px;
+      box-sizing: border-box;
+      border-radius: 5px;
+      display: inline-block;
+
+}
+
+
+
+#form {
+      background-image: url(https://images.unsplash.com/flagged/photo-1574097656146-0b43b7660cb6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+      background-repeat: no repeat;
+      background-position: center center;
+      background-size: cover;
+      height: 19.3rem;
+      width: 38.25rem;
+      display: inline-block;
+      /*      margin:3%;*/
+      filter: opacity(0.75);
+      position: absolute;
+      top: 29.4vh;
+      left: 25.2rem;
+
+}
+
+#menu1 {
+      background: none;
+      position: absolute;
+      top: 350px;
+      left: 41rem;
+      text-shadow: 0 0 8px black;
+      font-size: 44px;
+
+}
+
+p {
+      position: absolute;
+      background: none;
+      font-size: 34px;
+      top: 245px;
+      left: 670px;
+      color: #FFF0F3;
+      text-align: center;
+      font-weight: bold;
+      text-shadow: 0 0 5px black;
+}
+
+#button {
+      position: absolute;
+      bottom: 1.5rem;
+      right: 45px;
+      border: 0.75px solid black;
+      color: #FFCCD5;
+      height: 1.2rem;
+      width: 7.34rem;
+      text-align: center;
+      font-size: 2px;
+      text-decoration: none;
+}
+
+#menu {
+      text-align: center;
+      font-size: 18px;
+      text-decoration: none;
+      color: #FFCCD5;
+}
