@@ -2,7 +2,7 @@ import requests, uuid, json
 from flask import Flask
 
 # Add your key and endpoint
-key = "ef60340512b344708c0d15781fccc904"
+key = "key"
 endpoint = "https://api.cognitive.microsofttranslator.com"
 
 # Add your location, also known as region. The default is global.
